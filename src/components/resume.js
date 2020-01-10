@@ -13,10 +13,10 @@ class Resume extends Component{
                             <img 
                                 src={profilepic}
                                 alt='avatar'
-                                style={{height: '200px'}}
+                                style={{height: '230px', marginTop:'30px'}}
                             />
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Tom Nguyen</h2>
+                        <h2 style={{paddingTop: '1em'}}>Tom Nguyen</h2>
                         <h4 style={{color: 'grey'}}>Full-Stack Developer</h4>
                         <hr style={{borderTop:'3px sold grey', width:'50%'}}/>
                         <p>Talented web developer with over 1,000 hours of hands-on experience with coding. Demonstrated skills in Django, MEAN, and Java Spring Framework. Skilled in HTML/DOM, CSS, Java, Python, JavaScript. Strong computer science background, graduating from California State University Los Angeles.</p>
