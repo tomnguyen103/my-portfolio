@@ -66,7 +66,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                         <Button colored href="https://github.com/tomnguyen103/Project1" rel="noopener noreferrer" target="_blank">Github</Button>
-                        <Button colored href="http://book.tomnguyen.me/" rel="noopener noreferrer" target="_blank">Live Demo</Button>
+                        <Button colored href="http://library.tomnguyen.me/" rel="noopener noreferrer" target="_blank">Live Demo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="shared" />
@@ -85,13 +85,13 @@ class Projects extends Component{
                     <Tab>Project 3</Tab>
                 </Tabs>
 
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
+                
+                    <Grid>
                         <Cell col={12}>
                             <div className="content">{this.toggleCategories()}</div>
                         </Cell>
                     </Grid> 
-                </section>
+                
             </div>
         );
     }
