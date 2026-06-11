@@ -24,3 +24,11 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# production (vite)
+dist
+
+# env files
+.env
+.env.*
+!.env.example
